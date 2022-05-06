@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>send new message</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/secure-mail-icon.png" alt="logo of web">
+            <span>encrypt message</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="box ">
+            <div class="container grid grid-two-col">
+                <div class="hero-text">
+                    <h1> welcome to encrypted message service 
+                     provider</h1>
+                     <p>lorem ipsom lorem ipsom lorem ipsom lorem ipsom lorem ipsom
+                          lorem ipsom lorem ipsom lorem ipsom... </p> 
+                 </div>
+                 <div class="hero-form">
+                     <form id="linkForm">
+                         <div>
+                        <label for="msg">write message:</label>
+                         <div class="txtmsg">
+                             <textarea name="msg" id="msg" rows="10" cols="200" placeholder="type here your secret message"></textarea>
+                         </div>
+                        </div>
+
+
+                         <div>
+                            <label for="time">select auto delete time:</label>
+                            <select name="time" id="time" >
+                                <option value="10">10 second</option>
+                                <option value="30">30 second</option>
+                                <option value="50">50 second</option>
+                                <option value="60">1 minute</option>
+                                <option value="120">2 minute</option>
+                                <option value="180">3 minute</option>
+                            </select>
+                         </div>
+
+
+                         <div>
+                            <label for="passcheck">Password:</label>
+                            <input type="password" name="password" id="passcheck" placeholder="set password">
+                         </div>
+
+                         <div class="viewtime">
+                             <label for="viewcount"> view message times:</label>
+                             <select name="viewcount" id="viewcount">
+                                 <option value="1">1 time</option>
+                                 <option value="2">2 time</option>
+                                 <option value="3">3 time</option>
+                                 <option value="5">5 time</option>
+                             </select>
+                         </div>
+
+                         <div class="savebtn text-center">
+                             <button id="submit" class="btn-grad ">generate link & save</button>
+                         </div>
+
+                         
+                     </form>
+                 </div>
+            </div>
+        </section>
+
+         <!-- now link generated box  -->
+
+         <section id="viewLink">
+
+           
+                <div class="showLink">
+                    <h3>here is your privet generated Link:</h3>
+                    <p>copy following link and share that link to your friends to view your secret message, this message will follow that rule which is set by you.</p>
+                    <div class="allLink">
+                        <input type="text" name="" value="http://127.0.0.1:5500/?#showLink " readonly id="">
+                        <span>copy</span>
+                    </div>
+                </div>
+           
+        </section>
+
+   
+
+        <!-- now view message box  -->
+
+        <section id="viewMsgsetction " class="dbg">
+
+            <div class="container">
+              <div id="viewMsg">
+                    <div class="tempbtn">
+                    <h3> click blow to  see secret message:</h3>
+                    <img src="img/thanksmail.gif" alt="logoooo">
+                    </div>
+
+                    <!-- now code for received message  -->
+                    <div class="mainMsg">
+                        <div class="msgtimer">this message will expire in : <span id="timesdown">44:5 sec</span></div>
+                        <h4>Message from unknown:</h4>
+                        <p>here is your message read below.</p>
+                        <div class="msgtext">
+                            hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu 
+                            slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem ipsom hwkejr sdjfiu slir lorem i
+                            psom hwkejr sdjfiu slir lorem ipsom 
+                            
+                        </div>
+                       
+
+                    </div>
+
+              </div>
+            </div>
+        </section>
+    
+    </main>
+    <footer>
+        <h5>all rights reserved to sujeet kumar sharma 😙</h5>
+    </footer>
+
+    <script src="js/forms.js"></script>
+</body>
+</html>
