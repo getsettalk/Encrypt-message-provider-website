@@ -1,4 +1,4 @@
-# Encrypt-message-provider-website
+# Encrypt-message-provider-website template
 Encrypt message service provider website, home or landing page design in html css and javascript. it is a just simple ui for website 
 
 # Hi, I'm sujeet! 👋
